@@ -6,7 +6,7 @@ import bodyParser from "body-parser";
 import path from "path";
 // Security packages
 import helmet from "helmet";
-import dbConnection from "./dbConfig/index.js";
+import dbConnection from "./dbconfig/index.js";
 import errorMiddleware from "./middleware/errorMiddleware.js";
 import router from "./routes/index.js";
 import Users from "./models/userModel.js";
